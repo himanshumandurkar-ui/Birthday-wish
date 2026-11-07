@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffe7ef">
+  <title>A Little Surprise for Vedika 💗</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=6">
+  <style>.site .page{display:none}.site .page.active{display:flex}</style>
+</head>
+<body>
+  <div class="sparkle-bg" aria-hidden="true"></div>
+
+  <main>
+    <section class="gate screen" id="gate">
+      <div class="gate-card">
+        <div class="tiny-hearts">♡　✦　♡</div>
+        <div class="gift" aria-hidden="true">🎁</div>
+        <p class="eyebrow">A LITTLE SURPRISE IS WAITING</p>
+        <h1 id="gate-title">Hey!</h1>
+        <p class="gate-copy">Someone has made a little something just for you.<br>Enter your birthday to open it. 💗</p>
+        <form id="unlock-form">
+          <label for="birthday">Your date of birth</label>
+          <input id="birthday" type="date" required>
+          <button class="primary-btn" type="submit">Unlock my surprise <span>♡</span></button>
+          <p class="error" id="error" role="alert" aria-live="polite"></p>
+        </form>
+        <p class="gate-foot">Made with friendship &amp; lots of memories ✨</p>
+      </div>
+    </section>
+
+    <section class="site hidden" id="site">
+      <div class="page p-hero active">
+        <p class="brand-line">for <b id="brand-name"></b> <span>♡</span></p>
+        <div class="page-body hero-body">
+          <p class="eyebrow" id="hero-eyebrow"></p>
+          <h1><span id="hero-title"></span><br><em id="hero-name"></em></h1>
+          <p class="hero-line" id="hero-line"></p>
+          <div class="cake" aria-hidden="true">🎂</div>
+        </div>
+        <div class="floating-heart h1" aria-hidden="true">♡</div><div class="floating-heart h2" aria-hidden="true">✦</div><div class="floating-heart h3" aria-hidden="true">♡</div>
+        <div class="page-nav"><button class="primary-btn" type="button" data-next>Next →</button></div>
+      </div>
+
+      <div class="page p-intro">
+        <div class="page-body">
+          <p class="eyebrow">A NOTE BEFORE WE BEGIN</p>
+          <h2><span id="intro-a"></span><br><em id="intro-b"></em></h2>
+          <p class="intro-text" id="intro-text"></p>
+        </div>
+        <div class="page-nav"><button class="ghost-btn" type="button" data-prev>← Back</button><button class="primary-btn" type="button" data-next>Next →</button></div>
+      </div>
+
+      <div class="page p-bubbles" id="memories">
+        <div class="bubble-head">
+          <p class="eyebrow">LITTLE MOMENTS, BIG MEMORIES</p>
+          <h2><b id="mem-title"></b> <span>♡</span></h2>
+          <p id="mem-sub"></p>
+        </div>
+        <div class="bubble-field" id="bubble-field" aria-label="Memory bubbles"></div>
+        <div class="page-nav"><button class="ghost-btn" type="button" data-prev>← Back</button><button class="ghost-btn" id="reset-bubbles" type="button">Bring bubbles back</button><button class="primary-btn" type="button" data-next>Next →</button></div>
+      </div>
+
+      <div class="page p-end">
+        <div class="page-body">
+          <div class="footer-heart" aria-hidden="true">♡</div>
+          <h2 id="footer-title"></h2>
+          <p id="footer-text"></p>
+          <strong id="footer-strong"></strong>
+          <small id="footer-small"></small>
+        </div>
+        <div class="page-nav"><button class="ghost-btn" type="button" data-prev>← Back</button><button class="primary-btn" type="button" data-first>Start again ↺</button></div>
+      </div>
+    </section>
+  </main>
+  <div class="modal hidden" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card" id="modal-card">
+      <button class="modal-close" id="modal-close" type="button" aria-label="Close">×</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+  <script src="script.js?v=6"></script>
+</body>
+</html>

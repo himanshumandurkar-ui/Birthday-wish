@@ -1,0 +1,45 @@
+{
+  "name": "Vedika",
+  "birthday": "2026-11-11",
+  "accent": "#bd6687",
+  "heroEyebrow": "11 NOVEMBER · YOUR SPECIAL DAY",
+  "heroTitle": "Happy Birthday,",
+  "heroLine": "A little page for a friend who makes ordinary moments feel special.",
+  "introA": "Some friendships happen",
+  "introB": "when you least expect them.",
+  "introText": "We haven't known each other for ages, but somehow we've already collected moments worth keeping. So here's a small collection of them — just for you.",
+  "bubbleTitle": "Our Bubble Memories",
+  "bubbleSub": "Pop a bubble to open a photo. The big letter bubble has something just for you.",
+  "footerTitle": "Keep smiling, birthday girl!",
+  "footerText": "Here's to more laughs, more memories and many more good days.",
+  "footerStrong": "Happy Birthday, Vedika! 🎂",
+  "footerSmall": "Made with friendship by Himanshu · 11.11.2026",
+  "showLetterBubble": true,
+  "letter": "Dear Vedika,\n\nSome people don't need to do anything special to make the atmosphere better. They just show up, bring their own energy, and make an ordinary day feel lighter. Honestly, you're one of those people.\n\nTujhi ek goshta mala khup avadte — tu hamesha happy rahates ani lok kay mhantil yacha jast vichar karat nahis. Tujha carefree attitude tula vegla banavto. ❤️\n\nEven though we haven't known each other for a very long time, I'm genuinely glad that we became friends. Our random talks, funny moments and little memories have made this friendship special.\n\nI hope you keep smiling, achieve everything you're working towards, and never lose that positive energy. And remember, you don't have to be happy every single moment. You deserve care and happiness too.\n\nStay happy, stay crazy, and keep being YOU.\n\n— Himanshu ♡",
+  "photos": [
+    {
+      "src": "assets/college-selfie.jpg",
+      "caption": "Good friends, good memories ♡"
+    },
+    {
+      "src": "assets/rockside-memory-1.png",
+      "caption": "A day to remember"
+    },
+    {
+      "src": "assets/rockside-memory-2.png",
+      "caption": "Random talks, happy moments"
+    },
+    {
+      "src": "assets/sunglasses-memory.png",
+      "caption": "Bestie vibes 😎"
+    },
+    {
+      "src": "assets/purple-fun-memory.jpg",
+      "caption": "Your carefree side 😂"
+    },
+    {
+      "src": "assets/park-memory.jpg",
+      "caption": "Always keep this smile ♡"
+    }
+  ]
+}
